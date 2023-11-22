@@ -27,13 +27,13 @@ async def main_teletips():
     async with app:
             while True:
                 print("Checking...")
-                xxx_teletips = f"┏━━━━•❅•°• - ⭕️ - •°•❅•━━━━┓"
-                xxx_teletips = f"\n       ✨𝐖ꫀꪶ𝐜𝐨𝐦𝐞 𝐓𝐨....✨  "
-                xxx_teletips = f"\n    🇭ᴇᴀʀᴛ𝔹ᴇᴀᴛ ⭕ғͥғɪᴄͣɪͫ͢͢͢ꫝ𝙻⋆   "
-                xxx_teletips = f"\n┗━━━━•❅•°• - ⭕️ - •°•❅•━━━━┛"
-                xxx_teletips = f"\n┈─────────────────┈"
-                xxx_teletips = f"\nʀᴇᴀʟᴛɪᴍᴇ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ✨"
-                xxx_teletips = f"\n╰┈➤ 🇭ᴇᴀʀᴛ🇧ᴇᴀᴛ"
+                xxx_teletips = f"┏━━━━•❅•°• - ⭕️ - •°•❅•━━━━┓
+                <i>\n       ✨𝐖ꫀꪶ𝐜𝐨𝐦𝐞 𝐓𝐨....✨  </i>
+                <i>\n    🇭ᴇᴀʀᴛ𝔹ᴇᴀᴛ ⭕ғͥғɪᴄͣɪͫ͢͢͢ꫝ𝙻⋆   </i>
+                <i>\n┗━━━━•❅•°• - ⭕️ - •°•❅•━━━━┛</i>
+                <i>\n┈─────────────────┈</i>
+                <i>\nʀᴇᴀʟᴛɪᴍᴇ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ✨</i>
+                <i>\n╰┈➤ 🇭ᴇᴀʀᴛ🇧ᴇᴀᴛ</i>"
                 for bot in BOT_LIST:
                     try:
                         yyy_teletips = await app.send_message(bot, "/start")
